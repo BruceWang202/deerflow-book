@@ -29,5 +29,21 @@ chapters/ - 各章节内容
 .vitepress/ - VitePress 配置
 index.md - 首页
 contents.md - 目录页
-Assistant
-下午12:53
+
+
+文档网站现在可以通过以下地址访问：
+本地访问： http://localhost:5173/
+帮助选项
+
+按 h 查看帮助信息
+按 q 退出服务器
+网络访问
+
+如果需要从网络访问（例如手机/平板查看），运行：
+
+npm run docs:dev -- --host
+这将显示并暴露到你的局域网 IP。
+文档项目信息：
+VitePress 1.6.4
+位置：/Users/bruce/.openclaw/workspace/deerflow-book/
+
